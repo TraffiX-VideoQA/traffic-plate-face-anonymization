@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tumtrafficdatasets"       
+version = "1.0.0"             
+description = "YOLOv11 related scripts and training utilities"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Zhiyu Zhao", email = "zhiyu.zhao@tum.de" }]
+license = { text = "Attribution-NonCommercial-ShareAlike 4.0" }     
+
+dependencies = [
+    "numpy==2.3.2",
+    "opencv_python==4.11.0.86",
+    "Pillow==11.3.0",
+    "scikit_learn==1.7.1",
+    "torch==2.2.2",
+    "ultralytics==8.3.179",
+]
+
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+    "pytest",
+]
+
+[project.scripts]
+yolov11-train = "yourpkg.cli:main"
