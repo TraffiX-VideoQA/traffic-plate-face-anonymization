@@ -16,7 +16,7 @@ This project provides a workflow for traffic dataset anonymization with **YOLOv1
 
 
 ## Model Checkpoints 📦
-  To obtain the pretrained checkpoints required for license plate and face detection, please register and request access at [TUMTraffic Dataset Series](https://a9-dataset.innovation-mobility.com/register).  
+  To obtain the pretrained checkpoints required for license plate and face detection, please register and request access at our registration portal [TUMTraffic Dataset Series](https://a9-dataset.innovation-mobility.com/register).  
   
 ## Environment Setup 🧰
 
